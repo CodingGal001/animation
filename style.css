@@ -1,0 +1,44 @@
+.ayomide{
+    color: white;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background-color: blue;
+    animation: rotation 10s infinite ;
+    display: flex;
+    justify-content: center;
+    
+}
+@keyframes rotation{
+    0%{ background-color: aqua; top: 0%; left: 0%;}
+    20%{ background-color: black; top: 40px; left: 465px;}
+    40%{ background-color: blueviolet; top: 60px;left: 480px;}
+    60%{ background-color: red; top: 80px; left: 420px;}
+    80%{ background-color: palevioletred; top: 70px; left: 480px;}
+    100%{ background-color: green; top: 100px; left: 390px;}
+}
+.mide{
+    color: red;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    background-color: blueviolet;
+    position: relative;
+    animation: rotationi 10s infinite ;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+}
+@keyframes rotationi{
+    0%{ background-color: red; top: 0%; right: 0%;}
+    20%{ background-color: lightgreen; top: 20px; right: 465px;}
+    40%{ background-color: yellow; top: 30px; right : 480px;}
+    60%{ background-color: tomato; top: 60px; right: 420px;}
+    80%{ background-color: turquoise; top: 70px; right: 480px;}
+    100%{ background-color: orangered; top: 100px; right: 390px;}
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+}
